@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+        list-style: none;
+        justify-content: center;
+        justify-content: space-evenly;
+        width: 100%;
+}
+header{
+    background-color: rgba(130,7,51,255);
+    display:flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.lane, a{
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
